@@ -1,38 +1,125 @@
+*{
+    margin:0
+}
+
 .App {
-  text-align: center;
+    /* box-sizing: border-box; */
+    display: flex;
+    background-color: rgb(33,33,33);
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    }
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.info {
+    
+    background-color: rgb(235,235,235);
+    display: flex;
+    width: 70%;
+    height: 60vh;
+    align-self: center;
+    margin-top: 15vh;
+}
+.home {
+    box-sizing: border-box;
+    background-color: #34A5DA;
+    width: 100%;
+    height: 15vh;
+    padding-top: 6vh;
+    padding-left: 4vh;
+    font-size: xx-large;
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
+a {
+    color: rgb(235,235,235);
+    
+    
+}
+.list-item {
+   
+    display: flex;
+    flex-direction: column;
+    
+    width: 100vw;
+    
+}
+header {
+    display: flex;
+    background-color: rgb(235,235,235);
+    height: 15vh;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    
+
+}
+ .num {
+     padding-right: 5vh;
+     padding-top: 2vh;
+ }
+ .name {
+     padding-left: 10vh;
+     padding-top: 5vh;
+     text-decoration: underline;
+     
+ }
+section {
+    display: flex;
+    background-color:rgb(235,235,235);
+    height: 20vh;
+    flex-direction: column;
+    
+    
+    
+    
+}
+.per-info {
+    padding-left: 5vw;
+    padding-top: 1vh;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer {
+    background-color: rgb(235,235,235);
+    height: 20vh;
+    
+    
+}
+ol {
+    padding-left: 10vh;
+}
+.movie-list {
+    padding-top: 2vh;
+    padding-left: 6vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.blue-btn {
+    display: flex;
+    background-color: #34A5DA;
+    height: 30px;
+    width: 65px;
+    border-radius: 12px;
+    color: azure;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
 }
+.mid-btn{
+    display: flex;
+    box-sizing: border-box;
+   
+    width: 20vw;
+    justify-content: space-around;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    
 }
